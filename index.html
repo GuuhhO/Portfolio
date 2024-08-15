@@ -103,6 +103,10 @@
         transform: scale(1.05);
         filter: brightness(25%);
       }
+
+      #banner {
+        background: url(img/banner.jpg) center no-repeat;
+      }
     </style>
 
     <link href="product.css" rel="stylesheet">
@@ -113,7 +117,7 @@
   <div class="container">
     <a class="navbar-brand d-md-none" href="#">
       <svg class="bi" width="24" height="24"><use xlink:href="#aperture"/></svg>
-      Aperture
+      Gustavo H | Portfólio
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -140,7 +144,7 @@
 
 <main>
 
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
+  <div class="position-relative overflow-hidden p-md-5 m-md-3 text-center bg-body-tertiary" id="banner">
     <div class="col-md-6 p-lg-5 mx-auto my-5">
       <h1 class="display-3 fw-bold">DESIGN & PROGRAMAÇÃO</h1>
       <h3 class="fw-normal text-muted mb-3">Construindo arte com tecnologia</h3>
@@ -149,8 +153,6 @@
         <a class="btn btn-light" href="#">Serviços</a>
       </div>
     </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
   </div>
 
 <section id="projetos">
@@ -192,15 +194,15 @@
 </section>
 
 <section id="sobre">
-  <div class="container p-3 m-auto">
-    <h1 align="center">SOBRE MIM</h1>
-    <div class="row">
-      <div class="col-8">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <div class="container p-3">
+    <h1 align="center" class="p-3">SOBRE MIM</h1>
+    <div class="row align-items-center">
+      <div class="col">
+        <p>Olá! Meu nome é Gustavo e sou um designer apaixonado por criar experiências visuais impactantes. Com anos de experiência em Design e Marketing Digital, já trabalhei com diversas empresas, produzindo materiais digitais que combinam conteúdo e design de forma envolvente. Meu objetivo é criar trabalhos visuais que se conectem com o público, transmitindo mensagens claras e inspiradoras. Vamos colaborar e transformar ideias em realidade!</p>
       </div>
-      <div class="col-4">
+      <div class="col">
         <div class="perfil">
-          <img src="img/perfil.jpg" alt="" style="border-radius: 50%;" width="200">
+          <center><img src="img/perfil.jpg" alt="" style="border-radius: 50%;" width="200"></center>
         </div>
       </div>
     </div>
